@@ -7,7 +7,7 @@ namespace Observer_Design_Pattern.DAL
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=LAPTOP-FJT4L6QM;initial catalog=DbObserver;integrated security=true");
+            optionsBuilder.UseSqlServer("server=LAPTOP-FJT4L6QM;initial catalog=DbObserver1;integrated security=true");
         }
         public DbSet<Discount> Discounts { get; set; }
     }

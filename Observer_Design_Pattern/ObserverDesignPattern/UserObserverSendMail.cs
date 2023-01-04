@@ -4,7 +4,7 @@ using Microsoft.Extensions.Logging;
 using MimeKit;
 using Observer_Design_Pattern.DAL;
 using System;
-using System.Net.Mail;
+
 
 namespace Observer_Design_Pattern.ObserverDesignPattern
 {
@@ -45,8 +45,8 @@ namespace Observer_Design_Pattern.ObserverDesignPattern
 
             mimeMessage.Subject = "Sistemimize Hoş Geldiniz";
 
-            SmtpClient client= new SmtpClient();         
-          
+
+            SmtpClient client = new SmtpClient();
             client.Connect("smtp.gmail.com", 587, false);
             client.Authenticate("ezgi.pkts@hotmail.com", "ekzpnmnofibdjgtr");
             client.Send(mimeMessage);

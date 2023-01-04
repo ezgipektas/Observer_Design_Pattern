@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Observer_Design_Pattern.Migrations
 {
-    public partial class mig_1 : Migration
+    public partial class mig_create : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

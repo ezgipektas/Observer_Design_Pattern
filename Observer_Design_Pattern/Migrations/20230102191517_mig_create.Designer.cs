@@ -10,8 +10,8 @@ using Observer_Design_Pattern.DAL;
 namespace Observer_Design_Pattern.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20221228164828_mig_2")]
-    partial class mig_2
+    [Migration("20230102191517_mig_create")]
+    partial class mig_create
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
